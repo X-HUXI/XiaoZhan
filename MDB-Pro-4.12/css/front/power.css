@@ -1,0 +1,367 @@
+
+body {
+  margin: 0;
+}
+.main {
+  margin: 0;
+  background: url(../../img/xiaozhan/xz2.jpg) no-repeat center center fixed;
+  float: center;
+  background-size:cover ;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  opacity: 0.75;
+  z-index: -100;
+  overflow: hidden;
+}
+@media only screen and {
+    .main{
+         max-width: 767px;
+}
+    }
+ .row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+navbar-expand-lg navbar-dark primary-color fixed-top {
+  color: #7b4e5f;
+}
+a.navbar-brand {
+  color: #7b4e5f;
+}
+ul.topnav {
+  float: left;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d286a2;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #edefe8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color:#d67573;
+}
+
+ul.topnav li a.active {
+  background-color: #a18cd1;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+/* 设置二级菜单绝对定位，并隐藏 */
+ul.topnav > li > ul {
+  position: absolute;
+  display: none;
+}
+ul.topnav > li > ul > li {
+  float: none;
+}
+ul.topnav > li:hover ul {
+  display: block;
+}
+/* 二级菜单 */
+ul.topnav > li > ul > li > a {
+  width: 120px;
+  line-height: 6px;
+  color: #edefe8;
+  background-color: #d176a2;
+  text-align: center;
+  border: 1px solid rgb(32, 8, 8);
+  border-top: none;
+  display: block;
+}
+
+/* 在二级菜单中，第一个设置顶边框 */
+ul.topnav > li > ul > li:first-child > a {
+  border-top: 1px solid #ccc;
+}
+
+/* 在二级菜单中，鼠标放上去的样式 */
+ul.topnav > li > ul > li > a:hover {
+  color: rgb(231, 229, 231);
+  background-color: #cdf;
+}
+
+h3 {
+  color: #edebed;
+  text-align: left;
+  line-height: 1.8;
+  padding-left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 70px;
+  text-shadow: 2px 2px rgb(199,0,107);
+}
+p.mainword {
+  color: #ede8ed;
+  text-align: left;
+  padding-left: 50px;
+  line-height: 1.8;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 1px 1px #887479;
+}
+
+h5 {
+  color:#ede8ed;
+  text-align: left;
+  line-height: 1.8;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 25px;
+  text-shadow: 1.5px 1.5px  #d35a7f;
+}
+a.some {
+  display: block;
+  color: rgb(235, 225, 236);
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+p.foolder {
+  color: #fdf9fb;
+  text-align: left;
+  line-height: 1.2;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 20px;
+}
+footer {
+  background:  url(../../img/xiaozhan/bj2.jpg) no-repeat center center
+    fixed;
+  float: center;
+  margin: auto;
+  padding: 0;
+  background-size: cover;
+  overflow: hidden;
+  padding: 15px;
+  opacity: 0.8;
+  height: 100%;
+  max-width: 100%;
+}
+ul.list-unstyled {
+  float: left;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.list-unstyled li {
+  float: left;
+}
+
+ul.list-unstyled li a {
+  display: block;
+  color: #edefe8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* 响应式布局 - 创建堆叠而非并排的三列 */
+@media screen and (max-width: 600px) {
+ .all {
+    width: 100%;
+  }
+}
+
+div.else {
+  display: block;
+  color: rgb(230, 220, 223);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div.else a {
+  display: block;
+  color: rgb(241, 238, 239);
+  text-align: center;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.8;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: 2px 2px #598982;
+}
+p {
+  padding-left: 400px;
+  color: #ffffff;
+  text-align: justify;
+  line-height: 1.8;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 15px;
+  text-align: right;
+  text-shadow: 1px 1px #07553a;
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+}
+
+video {
+  max-width: 100%;
+  max-height: auto;
+  float: center;
+   padding-left: 50px;
+  object-fit: cover;
+  filter: brightness(0.8);
+  -webkiet-transform
+}
+video.it {
+  max-width: 100%;
+  max-height: auto;
+  float: center;
+  filter: brightness(0.8);
+}
+  video::-webkit-media-controls {
+  overflow: hidden !important;
+  display: none;
+}
+video::-webkit-media-controls-enclosure {
+  width: calc(100% + 32px);
+  margin-left: auto;
+}
+
+.big-video{
+     min-width: 100%;
+     min-height: auto;
+     z-index: 0;
+     padding: auto;
+     vertical-align: bottom;
+     display: block;
+     position: fixed;
+}
+.v1{
+    width: 100%;
+    height: 100%;  
+    cursor: not-allowed;
+  pointer-events: none;
+  content: attr(date-title);
+  position: relative;
+  z-index:-999;
+}
+
+.row:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+[class*='coll-'] {
+  float: left;
+  padding: 15px;
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .coll-s-1 {
+    width: 8.33%;
+  }
+  .coll-s-2 {
+    width: 16.66%;
+  }
+  .coll-s-3 {
+    width: 25%;
+  }
+  .coll-s-4 {
+    width: 33.33%;
+  }
+  .coll-s-5 {
+    width: 41.66%;
+  }
+  .coll-s-6 {
+    width: 50%;
+  }
+  .coll-s-7 {
+    width: 58.33%;
+  }
+  .coll-s-8 {
+    width: 66.66%;
+  }
+  .coll-s-9 {
+    width: 75%;
+  }
+  .coll-s-10 {
+    width: 83.33%;
+  }
+  .coll-s-11 {
+    width: 91.66%;
+  }
+  .coll-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .coll-1 {
+    width: 8.33%;
+  }
+  .coll-2 {
+    width: 16.66%;
+  }
+  .coll-3 {
+    width: 25%;
+  }
+  .coll-4 {
+    width: 33.33%;
+  }
+  .coll-5 {
+    width: 41.66%;
+  }
+  .coll-6 {
+    width: 50%;
+  }
+  .coll-7 {
+    width: 58.33%;
+  }
+  .coll-8 {
+    width: 66.66%;
+  }
+  .coll-9 {
+    width: 75%;
+  }
+  .coll-10 {
+    width: 83.33%;
+  }
+  .coll-11 {
+    width: 91.66%;
+  }
+  .coll-12 {
+    width: 100%;
+  }
+}

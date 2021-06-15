@@ -1,0 +1,195 @@
+
+body {
+  margin: 0;
+}
+navbar-expand-lg navbar-dark primary-color fixed-top {
+  color: rgb(127, 21, 131);
+}
+a.navbar-brand {
+  color: #d896f6;
+}
+ul.topnav {
+  float: left;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ce93d8;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: rgb(183, 136, 189);
+}
+
+ul.topnav li a.active {
+  background-color: #a18cd1;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+/* 设置二级菜单绝对定位，并隐藏 */
+ul.topnav > li > ul {
+  position: absolute;
+  display: none;
+}
+ul.topnav> li > ul > li {
+  float: none;
+}
+ul.topnav > li:hover ul {
+  display: block;
+}
+/* 二级菜单 */
+ul.topnav  > li > ul > li > a {
+  width: 120px;
+  line-height: 6px;
+  color: rgb(231, 229, 231);
+  background-color: #ce93d8;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-top: none;
+  display: block;
+}
+
+/* 在二级菜单中，第一个设置顶边框 */
+ul.topnav > li > ul > li:first-child > a {
+  border-top: 1px solid #ccc;
+}
+
+/* 在二级菜单中，鼠标放上去的样式 */
+ul.topnav > li > ul > li > a:hover {
+  color: rgb(231, 229, 231);
+  background-color: #cdf;
+}
+
+#example1 {
+ background:url(../../img/xiaozhan/lightspot1.jpg)no-repeat center center fixed;
+ background-size: cover;
+  padding:15px;
+  opacity: 0.3;
+  height: 100%;
+  max-width: 100%;
+
+}
+#all{
+  background: url(../../img/xiaozhan/lightspot4.jpg)no-repeat center center fixed;
+  padding: 200px;
+  opacity: 0.75;
+}
+
+h3{
+ color: #edebed;
+text-align: center;
+line-height: 1.8;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-size: 70px;
+text-shadow: 2px 2px #d896f6;
+
+ 
+}
+p.mainword{
+  color:#e9ede0;
+  text-align: center;
+  line-height: 1.8;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 1.5px 1.5px #ca1f3d;
+
+}
+
+h5 {
+  color:  #151d55;;
+  text-align: left;
+  line-height: 1.8;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 25px;
+  text-shadow: 1.5px 1.5px #ede8ed;
+  writing-mode: horizontal-tb;
+}
+a.some{
+   display: block;
+  color: rgb(235, 225, 236);
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+
+}
+
+p.foolder {
+  color: #ede8ed;
+  text-align: left ;
+  line-height: 1.2;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 20px;
+
+}
+footer {
+ background-image: repeating-linear-gradient(#151d55 ,#73289e,#a48ee1,#edcef0,#d896f6,#70609f );
+  float:center;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+
+
+}
+ul.list-unstyled{
+  float: left;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.list-unstyled li {
+  float: left;
+}
+
+ul.list-unstyled li a {
+  display: block;
+  color: rgb(27, 6, 6);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div.else{
+  display: block;
+  color:rgb(214, 202, 216);;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div.else a {
+  display: block;
+  color: rgb(253, 240, 255);
+  text-align: center;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+

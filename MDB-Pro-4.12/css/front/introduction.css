@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+}
+navbar-expand-lg navbar-dark primary-color fixed-top {
+  color: rgb(83, 146, 99);
+}
+a.navbar-brand {
+  color: #35812b;
+}
+ul.topnav {
+  float: left;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color:#83b274;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #edefe8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #2fb97b;
+}
+
+ul.topnav li a.active {
+  background-color: #a18cd1;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+/* 设置二级菜单绝对定位，并隐藏 */
+ul.topnav > li > ul {
+  position: absolute;
+  display: none;
+}
+ul.topnav > li > ul > li {
+  float: none;
+}
+ul.topnav > li:hover ul {
+  display: block;
+}
+/* 二级菜单 */
+ul.topnav > li > ul > li > a {
+  width: 120px;
+  line-height: 6px;
+  color:#edefe8;
+  background-color: #83b274;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-top: none;
+  display: block;
+}
+
+/* 在二级菜单中，第一个设置顶边框 */
+ul.topnav > li > ul > li:first-child > a {
+  border-top: 1px solid #ccc;
+}
+
+/* 在二级菜单中，鼠标放上去的样式 */
+ul.topnav > li > ul > li > a:hover {
+  color: rgb(231, 229, 231);
+  background-color: #cdf;
+}
+
+h3 {
+  color: #edebed;
+  text-align: center;
+  line-height: 1.8;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 70px;
+  text-shadow: 2px 2px #d896f6;
+}
+p.mainword {
+  color: #e9ede0;
+  text-align: center;
+  line-height: 1.8;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 1.5px 1.5px #ca1f3d;
+}
+
+h5 {
+  color: #151d55;
+  text-align: left;
+  line-height: 1.8;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 25px;
+  text-shadow: 1.5px 1.5px #ede8ed;
+}
+a.some {
+  display: block;
+  color: rgb(235, 225, 236);
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+p.foolder {
+  color: #fdf9fb;
+  text-align: left;
+  line-height: 1.2;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 20px;
+}
+footer {
+  background: url(../../img/xiaozhan/lawn3.jpg) no-repeat center center fixed;
+  float: center;
+  margin: auto;
+  padding: 0;
+  background-size: cover;
+  overflow: hidden;
+  padding: 15px;
+  opacity: 0.8;
+  height: 100%;
+  max-width: 100%;
+
+}
+ul.list-unstyled {
+  float: left;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.list-unstyled li {
+  float: left;
+}
+
+ul.list-unstyled li a {
+  display: block;
+  color:#edefe8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div.else {
+  display: block;
+  color: rgb(214, 202, 216);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div.else a {
+  display: block;
+  color: rgb(253, 240, 255);
+  text-align: center;
+}
+.column {
+  background: url(../../img/xiaozhan/6.jpg) no-repeat center center fixed; 
+  float:center;
+  max-width: 100%;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  opacity: 0.75;
+  float: center;
+}
+
+/* 左右列 */
+.column.side {
+  width: 40%;
+  margin: -1px;
+  background-size: cover;
+  background-color: #5b8982;
+  border: 15px solid #bac8a0;
+  padding-left: 70px;
+  border-style: outset;
+}
+/* 中间列 */
+.column.middle {
+  width:60%;
+  padding-left: 70px;
+  background-size: cover;
+  background-color: #5b8982;
+  border: 15px solid #bac8a0; 
+  border-style: dotted dashed solid double;}
+/* 清除列之后的浮动 */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* 响应式布局 - 创建堆叠而非并排的三列 */
+@media screen and (max-width: 600px) {
+  .column.side,
+  .column.middle
+  .column.updown {
+    width: 100%;
+  }
+}
+h2 {
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.8;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: 2px 2px #598982;
+}
+p {
+  color:  #ffffff;
+  text-align: justify;
+  line-height: 1.8;
+  font-family: "Sofia";
+  font-style: italic;
+  font-size: 15px;
+  text-shadow: 1px 1px #07553a;
+  font-weight: bold;
+
+}

@@ -1,0 +1,305 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: linear-gradient(140deg, #5099bc, #a1d8d3);
+float: center;
+margin: auto;
+padding: 0;
+overflow: auto;
+
+}
+navbar-expand-lg navbar-dark primary-color fixed-top {
+  color: #3b7b9a;
+}
+a.navbar-brand {
+  color:#1f9cea;
+}
+ul.topnav {
+  float: right;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #79afce;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color:#3b7b9a ;
+}
+
+ul.topnav li a.active {
+  background-color:#a5def1;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+/* 设置二级菜单绝对定位，并隐藏 */
+ul.topnav > li > ul {
+  position: absolute;
+  display: none;
+}
+ul.topnav > li > ul > li {
+  float: none;
+}
+ul.topnav > li:hover ul {
+  display: block;
+}
+/* 二级菜单 */
+ul.topnav > li > ul > li > a {
+  width: 120px;
+  line-height: 6px;
+  color: rgb(231, 229, 231);
+  background-color: #79afce;
+  text-align: center;
+  border: 1px solid rgb(71, 37, 196);
+  border-top: none;
+  display: block;
+}
+
+/* 在二级菜单中，第一个设置顶边框 */
+ul.topnav > li > ul > li:first-child > a {
+  border-top: 1px solid #ccc;
+}
+
+/* 在二级菜单中，鼠标放上去的样式 */
+ul.topnav > li > ul > li > a:hover {
+  color: rgb(231, 229, 231);
+  background-color: #cdf;
+}
+
+#example1 {
+  background: url(../../img/xiaozhan/lightspot5.jpg) no-repeat center center
+    fixed;
+    padding-top: 20px;
+   padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-size: cover;
+  opacity: 0.3;
+  height: 100%;
+  max-width: 100%;
+}
+
+h3 {
+  color: #edebed;
+  text-align: center;
+  line-height: 1.8;
+  font-family:Helvetica;
+  font-style: italic;
+  font-size: 50px;
+  text-shadow: 2px 2px #00738c;
+}
+p.mainword {
+  color: #e9ede0;
+  text-align: right;
+  line-height: 1.8;
+  font-family: Helvetica;
+  font-style: italic;
+  font-size: 20px;
+  padding-right: 80px;
+
+  text-shadow: 1.5px 1.5px #81b0b2;
+}
+h4{
+
+  display: block;
+  padding: 0em 1.25em;
+  margin: 1em auto 0;
+  font-size: 1.67em;
+  font-weight: 500;
+  color: rgb(100, 85, 134);
+  text-align: center;
+  text-transform: uppercase;
+  background: none;
+  border: 0;
+}
+
+
+h5 {
+  color: #f2f7f3;
+  text-align: left;
+  line-height: 1.8;
+  font-family: OpenType;
+  font-style: italic;
+  font-size: 25px;
+  text-shadow: 1.5px 1.5px #3b5284;
+}
+a.some {
+  display: block;
+  color: rgb(235, 225, 236);
+  text-align: left;
+  font-family: Lucida Handwriting;
+  font-style: italic;
+}
+
+p.foolder {
+  color: #ede8ed;
+  text-align: left;
+  line-height: 1.2;
+  font-family: 'Lucida Console';
+  font-style: italic;
+  font-size: 20px;
+}
+footer {
+  background-image: linear-gradient(40deg,#0c7bb3,#f2bae8);
+  float: center;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+}
+ul.list-unstyled {
+  float: left;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.list-unstyled li {
+  float: left;
+}
+
+ul.list-unstyled li a {
+  display: block;
+  color:#d5dddf;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div.else {
+  display: block;
+  color: rgb(214, 202, 216);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div.else a {
+  display: block;
+  color: rgb(253, 240, 255);
+  text-align: center;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.coll-1 {
+  width: 8.33%;
+}
+.coll-2 {
+  width: 16.66%;
+}
+.coll-3 {
+  width: 20%;
+  content: '\F04F2';;
+}
+.coll-4 {
+  width: 33.33%;
+}
+.coll-5 {
+  width: 41.66%;
+}
+.coll-6 {
+  width: 50%;
+}
+.coll-7 {
+  width: 58.33%;
+}
+.coll-8 {
+  width: 66.66%;
+}
+.coll-9 {
+  width: 75%;
+}
+.coll-10 {
+  width: 83.33%;
+}
+.coll-11 {
+  width: 91.66%;
+}
+.coll-12 {
+  width: 100%;
+}
+[class*='coll-'] {
+  float: left;
+  padding: 25px;
+  border: 1px solid lightyellow;
+  max-width:20%;
+  max-height: 20%;
+  
+}
+
+img{
+  float: left;
+  width:100%;
+  padding: 0px;
+  max-height:auto；
+
+  border: 2px solid #ddd;
+}
+div.card{
+  background-color: rgb(96, 121, 155);
+overflow: hidden;
+box-sizing: border-box;
+max-width: 100%;
+max-height: 100%;
+padding-bottom: 10px;
+}
+div.card-body {
+  background-color: lightblue;
+  overflow: visible;
+  box-sizing: border-box;
+  max-width: 100%;
+ height: 60%;
+ border: 5px solid rgb(167, 153, 218);
+border-style: solid double dashed;
+margin:auto;
+overflow: hidden;
+}
+
+h6.card-title {
+  text-align: center;
+  color: rgb(84, 53, 134);
+  text-shadow: 1px 1px rgb(183, 136, 189);
+  margin-top: 0;
+}
+p.card-text {
+  float: left;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 2px;
+  padding-bottom: 5px;
+  font-size: 30px;
+  margin:auto;
+  overflow:auto;
+  text-indent: 50px;
+  font-style: oblique;
+  font-family: "Sofia";
+}
