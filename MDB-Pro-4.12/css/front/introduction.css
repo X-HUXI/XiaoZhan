@@ -118,7 +118,7 @@ p.foolder {
   font-size: 20px;
 }
 footer {
-  background: url(../../img/xiaozhan/lawn3.jpg) no-repeat center center fixed;
+  background: url(https://github.com/X-HUXI/XiaoZhan/tree/main/MDB-Pro-4.12/img/xiaozhan/lawn3.jpg) no-repeat center center fixed;
   float: center;
   margin: auto;
   padding: 0;
@@ -162,7 +162,7 @@ div.else a {
   text-align: center;
 }
 .column {
-  background: url(../../img/xiaozhan/6.jpg) no-repeat center center fixed; 
+  background: url(https://github.com/X-HUXI/XiaoZhan/tree/main/MDB-Pro-4.12/img/xiaozhan/6.jpg) no-repeat center center fixed; 
   float:center;
   max-width: 100%;
   padding-top: 100px;
