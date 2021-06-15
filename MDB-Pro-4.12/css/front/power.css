@@ -4,7 +4,7 @@ body {
 }
 .main {
   margin: 0;
-  background: url(https://github.com/X-HUXI/XiaoZhan/tree/main/MDB-Pro-4.12/img/xiaozhan/xz2.jpg) no-repeat center center fixed;
+  background: url(../../img/xiaozhan/xz2.jpg) no-repeat center center fixed;
   float: center;
   background-size:cover ;
   padding-top: 100px;
@@ -145,7 +145,7 @@ p.foolder {
   font-size: 20px;
 }
 footer {
-  background:  url(https://github.com/X-HUXI/XiaoZhan/tree/main/MDB-Pro-4.12/img/xiaozhan/bj2.jpg) no-repeat center center
+  background:  url(../../img/xiaozhan/bj2.jpg) no-repeat center center
     fixed;
   float: center;
   margin: auto;
