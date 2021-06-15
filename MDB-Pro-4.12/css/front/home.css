@@ -75,7 +75,7 @@ ul.topnav > li > ul > li > a:hover {
 }
 
 #example1 {
- background:url(https://github.com/X-HUXI/XiaoZhan/tree/main/MDB-Pro-4.12/img/xiaozhan/lightspot1.jpg)no-repeat center center fixed;
+ background:url(../img/xiaozhan/lightspot1.jpg)no-repeat center center fixed;
  background-size: cover;
   padding:15px;
   opacity: 0.3;
@@ -84,7 +84,7 @@ ul.topnav > li > ul > li > a:hover {
 
 }
 #all{
-  background: url(https://github.com/X-HUXI/XiaoZhan/tree/main/MDB-Pro-4.12/img/xiaozhan/lightspot4.jpg)no-repeat center center fixed;
+  background: url(../img/xiaozhan/lightspot4.jpg)no-repeat center center fixed;
   padding: 200px;
   opacity: 0.75;
 }
