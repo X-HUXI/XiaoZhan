@@ -4,7 +4,7 @@
         margin: 0;
     }
 nav{
-background-image: url(../../img/xiaozhan/bj2.jpg);
+background-image: url(https://github.com/X-HUXI/XiaoZhan/tree/main/MDB-Pro-4.12/img/xiaozhan/bj2.jpg);
  max-width: 100%;
  max-height: auto;
 }
@@ -130,7 +130,7 @@ background-color: #d286a6;
 
 }
 div.card-body{
-  background: url(../../img/xiaozhan/da2.jpeg) no-repeat;
+  background: url(https://github.com/X-HUXI/XiaoZhan/tree/main/MDB-Pro-4.12/img/xiaozhan/da2.jpeg) no-repeat;
   background-size: cover;
   border: 10px solid rgb(197, 120, 191);
   border-style: solid double dashed;
