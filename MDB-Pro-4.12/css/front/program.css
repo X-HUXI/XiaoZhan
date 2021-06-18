@@ -258,6 +258,7 @@ img{
   padding: 0px;
    height:auto；
   border: 2px solid #ddd;
+  overflow:visible;
 }
 div.card{
   background-color: rgb(96, 121, 155);
@@ -275,7 +276,7 @@ div.card-body {
  border: 3vw solid rgb(167, 153, 218);
 border-style: solid double dashed;
 margin:auto;
-overflow: hidden;
+overflow: visible;
 }
 
 h6.card-title {
@@ -291,12 +292,9 @@ p.card-text {
   font-weight: 300;
   line-height: 1.2;
   padding-top: 0px;
-  padding-left: 1vw;
-  padding-right: 2vw;
-  padding-bottom: 3vw;
   margin:auto;
-  overflow:auto;
-  text-indent:10vw;
+  overflow:visible;
+  text-indent:3vw;
   font-style: oblique;
   font-family: "Sofia";
 }
