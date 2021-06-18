@@ -245,8 +245,8 @@ div.else a {
 }
 [class*='coll-'] {
   float: left;
-  padding: 3vw
-  border: 1vw solid lightyellow;
+  padding: 25px;
+  border: 1px solid lightyellow;
   max-width:20%;
   max-height: 20%;
   
