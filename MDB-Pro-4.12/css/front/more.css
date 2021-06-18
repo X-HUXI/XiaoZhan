@@ -35,8 +35,8 @@ a.navbar-brand {
      
     /* 设置二级菜单绝对定位，并隐藏 */
     .menuDiv > ul > li > ul {
-        position: absolute;
-        display: block;
+        position: fixed;
+        display: none;
     }
  
     /* 设置二级菜单的li的样式 */
