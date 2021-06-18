@@ -12,7 +12,6 @@ a.navbar-brand {
     /* -------------菜单css代码----------begin---------- */
     .menuDiv { 
         border: 2px solid #aac; 
-        overflow: hidden; 
         display:inline-block;
     }
      
